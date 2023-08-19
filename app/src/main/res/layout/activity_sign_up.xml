@@ -112,14 +112,15 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72dp"
+        android:layout_height="18dp"
+        android:onClick="toThirdActivity"
         android:text="Войдите"
         android:textColor="#484C7F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.924" />
+        app:layout_constraintVertical_bias="0.923" />
 </androidx.constraintlayout.widget.ConstraintLayout>

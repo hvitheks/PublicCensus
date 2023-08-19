@@ -22,4 +22,9 @@ public class SignUpActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SignInActivity.class);
         startActivity(intent);
     }
+
+    public void toThirdActivity(View v) {
+        Intent intent = new Intent(this, SignInActivity.class);
+        startActivity(intent);
+    }
 }
