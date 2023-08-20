@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
-public class SecondStepActivity extends AppCompatActivity {
+public class ThirdStepActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,16 +15,16 @@ public class SecondStepActivity extends AppCompatActivity {
         Window w = getWindow();
         w.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
-        setContentView(R.layout.activity_second_step);
+        setContentView(R.layout.activity_third_step);
     }
 
-    public void toContinue2(View v) {
-        Intent intent = new Intent(this, ThirdStepActivity.class);
+    public void toContinue3(View v) {
+        Intent intent = new Intent(this, FourthStepActivity.class);
         startActivity(intent);
     }
 
-    public void toBack2(View v) {
-        Intent intent = new Intent(this, FirstStepActivity.class);
+    public void toBack3(View v) {
+        Intent intent = new Intent(this, SecondStepActivity.class);
         startActivity(intent);
     }
 }

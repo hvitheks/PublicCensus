@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/first_step_activity_background"
-    tools:context=".FirstStepActivity">
+    android:background="@drawable/fourth_step_activity"
+    tools:context=".FourthStepActivity">
 
     <EditText
-        android:id="@+id/FamilyInput"
+        android:id="@+id/EducationInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="Фамилия"
+        android:hint="Образование"
         android:inputType="text"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
@@ -28,43 +28,43 @@
         app:layout_constraintVertical_bias="0.22" />
 
     <TextView
-        android:id="@+id/textFamily"
+        android:id="@+id/textEducation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_medium"
-        android:text="1. Укажите свою фамилию"
+        android:text="13. Укажите ваше образование"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintVertical_bias="0.168" />
 
     <TextView
-        android:id="@+id/textName"
+        android:id="@+id/textEducationNow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_medium"
-        android:text="2. Укажите своё имя"
+        android:text="14. Получаете ли вы образование сейчас?"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32" />
+        app:layout_constraintVertical_bias="0.322" />
 
     <EditText
-        android:id="@+id/NameInput"
+        android:id="@+id/EducationNowInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="Имя"
+        android:hint="Да/Нет"
         android:inputType="text"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
@@ -78,28 +78,28 @@
         app:layout_constraintVertical_bias="0.378" />
 
     <TextView
-        android:id="@+id/textPatronymic"
+        android:id="@+id/textHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_medium"
-        android:text="3. Укажите своё отчество(при наличии)"
+        android:text="15. Укажите тип вашего жилища"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintHorizontal_bias="0.141"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.469" />
 
     <EditText
-        android:id="@+id/PatronymicInput"
+        android:id="@+id/HomeInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="Отчество"
+        android:hint="Указать"
         android:inputType="text"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
@@ -113,28 +113,28 @@
         app:layout_constraintVertical_bias="0.532" />
 
     <TextView
-        android:id="@+id/textGender"
+        android:id="@+id/textHomeSquare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_medium"
-        android:text="4. Укажите свой пол"
+        android:text="16. Укажите площадь квартиры или дома"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.174"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <EditText
-        android:id="@+id/GenderInput"
+        android:id="@+id/HomeSquareInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="Отчество"
+        android:hint="Указать"
         android:inputType="text"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
@@ -148,13 +148,13 @@
         app:layout_constraintVertical_bias="0.687" />
 
     <Button
-        android:id="@+id/continue_button1"
+        android:id="@+id/finish_button"
         android:layout_width="240dp"
         android:layout_height="60dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/montserrat_bold"
-        android:onClick="toContinue1"
-        android:text="ДАЛЕЕ"
+        android:onClick="toFinish"
+        android:text="ЗАВЕРШИТЬ"
         android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -165,8 +165,8 @@
         app:layout_constraintVertical_bias="0.823" />
 
     <ImageView
-        android:id="@+id/backButton1"
-        android:onClick="toBack1"
+        android:id="@+id/backButton4"
+        android:onClick="toBack4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -176,6 +176,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.065"
         app:srcCompat="@drawable/back_button" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
