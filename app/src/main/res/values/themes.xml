@@ -12,6 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">#AC8DAF</item>
         <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">#F1D4D4</item>
 
     </style>
 </resources>

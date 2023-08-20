@@ -23,7 +23,7 @@
 
 
     <EditText
-        android:id="@+id/SignUpEmail"
+        android:id="@+id/inputEmail"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.560" />
 
     <EditText
-        android:id="@+id/SignUpPassword"
+        android:id="@+id/inputPassword"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -63,7 +63,7 @@
         app:layout_constraintVertical_bias="0.650" />
 
     <EditText
-        android:id="@+id/SignUpConfirmPassword"
+        android:id="@+id/inputConfirmPassword"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -83,12 +83,11 @@
         app:layout_constraintVertical_bias="0.740" />
 
     <Button
-        android:id="@+id/create_button"
+        android:id="@+id/btnRegister"
         android:layout_width="240dp"
         android:layout_height="60dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/montserrat_bold"
-        android:onClick="toCreate"
         android:text="СОЗДАТЬ"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -111,10 +110,9 @@
         app:layout_constraintVertical_bias="0.924" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/alreadyHaveAccount"
         android:layout_width="72dp"
         android:layout_height="18dp"
-        android:onClick="toThirdActivity"
         android:text="Войдите"
         android:textColor="#484C7F"
         app:layout_constraintBottom_toBottomOf="parent"

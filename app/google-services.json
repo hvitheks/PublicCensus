@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390662055698",
+    "project_id": "census-fa572",
+    "storage_bucket": "census-fa572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390662055698:android:dfebe90d88ea69033775cb",
+        "android_client_info": {
+          "package_name": "com.example.test2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390662055698-vt39qjeldcdbqvi2eum3deal2kh4o9vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3LrMxs9gQ5tCRJPVFGsr3X7bjZq7nvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390662055698-vt39qjeldcdbqvi2eum3deal2kh4o9vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
