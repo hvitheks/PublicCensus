@@ -8,7 +8,7 @@
     tools:context=".SignInActivity">
 
     <EditText
-        android:id="@+id/SignUpEmail"
+        android:id="@+id/inputEmail"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.560" />
 
     <EditText
-        android:id="@+id/SignUpPassword"
+        android:id="@+id/inputPassword"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.650" />
 
     <Button
-        android:id="@+id/enter_button"
+        android:id="@+id/btnLogin"
         android:layout_width="240dp"
         android:layout_height="60dp"
         android:background="@drawable/custom_button"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.834" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/createNewAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Зарегистрируйтесь"
