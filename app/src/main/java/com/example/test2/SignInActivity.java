@@ -91,7 +91,7 @@ public class SignInActivity extends AppCompatActivity {
         }
     }
     private void sendUserToNextActivity() {
-        Intent intent=new Intent(SignInActivity.this,FirstStepActivity.class);
+        Intent intent=new Intent(SignInActivity.this,ScrollActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }

@@ -24,7 +24,6 @@ public class SecondStepActivity extends AppCompatActivity {
     }
 
     public void toBack2(View v) {
-        Intent intent = new Intent(this, FirstStepActivity.class);
-        startActivity(intent);
+        this.finish();
     }
 }

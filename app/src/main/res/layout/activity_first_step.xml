@@ -8,7 +8,7 @@
     tools:context=".FirstStepActivity">
 
     <EditText
-        android:id="@+id/FamilyInput"
+        android:id="@+id/familyInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.32" />
 
     <EditText
-        android:id="@+id/NameInput"
+        android:id="@+id/nameInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -93,7 +93,7 @@
         app:layout_constraintVertical_bias="0.47" />
 
     <EditText
-        android:id="@+id/PatronymicInput"
+        android:id="@+id/patronymicInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"
@@ -128,7 +128,7 @@
         app:layout_constraintVertical_bias="0.62" />
 
     <EditText
-        android:id="@+id/GenderInput"
+        android:id="@+id/genderInput"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_input"

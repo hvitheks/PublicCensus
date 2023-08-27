@@ -15,4 +15,13 @@
         <item name="android:navigationBarColor">#F1D4D4</item>
 
     </style>
+
+    <style name="Theme.Test2.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Test2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Test2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

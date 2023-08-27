@@ -24,7 +24,6 @@ public class ThirdStepActivity extends AppCompatActivity {
     }
 
     public void toBack3(View v) {
-        Intent intent = new Intent(this, SecondStepActivity.class);
-        startActivity(intent);
+        this.finish();
     }
 }
