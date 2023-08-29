@@ -13,6 +13,7 @@
         android:layout_height="60dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/montserrat_bold"
+        android:onClick="btnFinish"
         android:text="ВЫЙТИ"
         android:textColor="@color/white"
         android:textSize="25sp"
